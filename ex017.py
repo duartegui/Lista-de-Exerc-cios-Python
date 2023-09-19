@@ -8,4 +8,4 @@ cateto_adjacente = (float(input('Digite o valor do cateto adjacente: ')))
 print(f'O valor da hipotenusa é: {hipotenusa:.2f}')''' #essa é a forma de resolver realizando os cálculos matemáticos
 
 hipotenusa = math.hypot (cateto_oposto, cateto_adjacente)
-print(f'O valor da hipotenusa é de: {hipotenusa:.2f}')
+print(f'O valor da hipotenusa é de: {hipotenusa:.2f}') #essa foi a forma de resolver usando a biblioteca math

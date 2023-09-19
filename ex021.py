@@ -2,6 +2,10 @@
 
 from pygame import mixer
 mixer.init()
-mixer.music.load('ex21.mp3')
+mixer.music.load('ex021.mp3')
 mixer.music.play()
-input('Agora você escuta?')
+resposta = 'outra' 
+while resposta  != 'parar':
+    resposta = input('Caso deseje parar a música digita parar: ')
+mixer.music.stop 
+

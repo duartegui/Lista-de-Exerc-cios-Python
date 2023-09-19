@@ -6,6 +6,6 @@ mixer.music.load('ex021.mp3')
 mixer.music.play()
 resposta = 'outra' 
 while resposta  != 'parar':
-    resposta = input('Caso deseje parar a música digita parar: ')
+    resposta = input('Caso deseje parar a música digite parar: ')
 mixer.music.stop 
 
